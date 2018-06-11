@@ -15,8 +15,6 @@ public class Main
   public File cfg = new File(getDataFolder(), "config.yml");
   private Connection dbConnection;
   
-  public Main() {}
-  
   public void onEnable() { instance = this;
     if (!cfg.exists()) {
       saveDefaultConfig();
