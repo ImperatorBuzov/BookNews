@@ -72,7 +72,6 @@ public class Command
   {
     final Player p = (Player)s;
     
-
     new BukkitRunnable() {
       public void run() {
         org.bukkit.inventory.ItemStack book = Command.newBook("LmperatoreqTOP", "VK", (String[])Splitter.fixedLength(256).splitToList(text).toArray(new String[0]));
