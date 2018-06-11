@@ -31,14 +31,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.scheduler.BukkitRunnable;
 
-
-
-
-
-
-
-
-
 public class BookNews
   implements Listener
 {
@@ -80,13 +72,6 @@ public class BookNews
   public void onJoin(final PlayerJoinEvent e) {
     if (!e.getPlayer().hasPlayedBefore())
     {
-
-
-
-
-
-
-
       new BukkitRunnable()
       {
         public void run()
